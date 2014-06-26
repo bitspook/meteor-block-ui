@@ -1,0 +1,21 @@
+<template name="block_ui">
+  {{#if session 'block_ui'}}
+  <div id="block_ui_container">
+    <div class="rotating-img" id="block_ui_spinner">
+      {{> block_ui_spinner}}
+    </div>
+  </div>  
+  {{/if}}
+</template>
+
+
+<template name="block_ui_spinner_flipping_rectangle">
+  <div class="block_ui_spinner_flipping_rectangle" style={{spinner_style}}></div>
+</template>
+
+<template name="block_ui_spinner_twin_circles">
+  <div class="block_ui_spinner_twin_circles">
+    <div class="double-bounce1"></div>
+    <div class="double-bounce2"></div>
+  </div>
+</template>
