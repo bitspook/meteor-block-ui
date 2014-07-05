@@ -2,6 +2,12 @@
 
 Does just one simple job. Blocks the UI and show a spinner. There's that jquery-block-ui plugin available, but I didn't like it. So here is my first and simplest meteor plugin.
 
+## Installation
+You should be using meteorite. 
+```sh
+mrt add block-ui
+```
+
 ## Usage
 
 ###BlockUI.block()
