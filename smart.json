@@ -1,10 +1,10 @@
 {
     "name": "block-ui",
     "description": "Super simple package with no external dependencies for blocking the UI and showing a spinner",
-    "homepage": "https://github.com/possibilities/meteor-cool-pkg",
+    "homepage": "https://github.com/channikhabra/meteor-block-ui.git",
     "author": "Charanjit Singh <ckhabra@gmail.com> (http://channikhabra.github.io)",
     "version": "0.1.0",
-    "git": "https://github.com/possibilities/meteor-cool-pkg.git",
+    "git": "https://github.com/channikhabra/meteor-block-ui.git",
     "packages": {
     }
 }
