@@ -1,5 +1,5 @@
 <template name="block_ui">
-  {{#if session 'block_ui'}}
+  {{#if shouldBlock}}
   <div id="block_ui_container">
     <div class="rotating-img" id="block_ui_spinner">
       {{> block_ui_spinner}}
@@ -15,7 +15,7 @@
 
 <template name="block_ui_spinner_twin_circles">
   <div class="block_ui_spinner_twin_circles">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
+    <div class="double-bounce1" style="{{spinner_style}}"></div>
+    <div class="double-bounce2" style="{{spinner_style}}"></div>
   </div>
 </template>
