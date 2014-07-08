@@ -3,7 +3,7 @@
     "description": "Super simple package with no external dependencies for blocking the UI and showing a spinner",
     "homepage": "https://github.com/channikhabra/meteor-block-ui",
     "author": "Charanjit Singh <ckhabra@gmail.com> (http://channikhabra.github.io)",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "git": "https://github.com/channikhabra/meteor-block-ui.git",
     "packages": {
     }
